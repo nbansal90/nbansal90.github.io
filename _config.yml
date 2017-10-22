@@ -6,7 +6,7 @@ highlighter:      rouge
 title:            NITIN BANSAL
 tagline:          'Masters Student at Texas A&M University'
 description:      'Masters Student at Texas A&M University'
-url:              https://fongandrew.github.io/hydeout
+url:              https://nbansal90.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
@@ -14,12 +14,29 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # sidebar_blog_link below.
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name:           'Nitin Bansal'
+  url:            url: https://nbansal90.github.io
 
 paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
+# Optional settings
+
+about_enabled: true # Change to true if you wish to show an icon in the navigation that redirects to the about page
+discus_identifier: # Add your Disqus identifier
+ga_analytics: # Add your GA Tracking Id
+local_fonts: false # Change to true if you wish to use local fonts
+rss_enabled: true # Change to false if not
+scrollappear_enabled: true # Change to false to disable
+
+social:
+  dribbble: # Add your Dribbble handle
+  facebook: https://www.facebook.com/nitin.bansal.33
+  flickr: # Add your Flickr handle
+  github: https://nbansal90.github.io
+  linkedin: https://www.linkedin.com/in/nbansal009/
+  twitter: https://twitter.com/iec2009030
+  email: bansalec30@gmail.com
 
 plugins:
   - jekyll-feed
